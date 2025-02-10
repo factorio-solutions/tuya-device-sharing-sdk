@@ -5,7 +5,7 @@ description = "Customized fork of tuya sharing library. Main difference is that 
 authors = ["Martin Ron <martin.ron@factorio.cz>"]
 license = "MIT"
 readme = "README.md"
-# packages = [{include = "tuya_device_sharing_sdk"}]
+packages = [{include = "tuya_device_sharing_sdk"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
