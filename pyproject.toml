@@ -10,7 +10,7 @@ packages = [{include = "tuya_device_sharing_sdk"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 requests = "^2.32.3"
-paho-mqtt = "^2.1.0"
+paho-mqtt = "<2.0"
 
 
 [build-system]
