@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tuya-device-sharing-sdk"
+version = "0.2.1.1"
+description = "Customized fork of tuya sharing library. Main difference is that it contains merged PRs that Tuya haven't merged yet."
+authors = ["Martin Ron <martin.ron@factorio.cz>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tuya_device_sharing_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+paho-mqtt = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
